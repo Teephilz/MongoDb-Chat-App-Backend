@@ -8,6 +8,9 @@ username:{
     max: 20,
     unique: true 
 },
+    refreshToken:{
+        type: String,  
+    },
 email:{
     type: String,
     required: true,
